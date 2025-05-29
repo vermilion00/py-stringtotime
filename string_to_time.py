@@ -340,7 +340,7 @@ class TimeToString:
                     output += str(num)
                 else:
                     output += "000"
-        if leave_blank != True:
+        if self.leave_blank != True:
             leave_blank = False
         if output == "" and not leave_blank:
             if return_format == 2:
